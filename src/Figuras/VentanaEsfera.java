@@ -39,7 +39,7 @@ public class VentanaEsfera extends JFrame implements ActionListener {
         campoRadio.setHorizontalAlignment(JTextField.CENTER);
 
         calcular = new JButton("Calcular");
-        calcular.setBounds(95, 50, 100, 23); // Centrado sobre "Resultado"
+        calcular.setBounds(95, 50, 100, 23);
         calcular.setFont(fuente);
         calcular.setBackground(new Color(189, 207, 205));
         calcular.setForeground(Color.BLACK);
@@ -48,7 +48,7 @@ public class VentanaEsfera extends JFrame implements ActionListener {
         resultadoTitulo = new JLabel("Resultado:");
         resultadoTitulo.setBounds(105, 80, 100, 20);
         resultadoTitulo.setFont(fuente);
-        resultadoTitulo.setForeground(new Color(90, 145, 130)); // Verde oscuro
+        resultadoTitulo.setForeground(new Color(90, 145, 130));
 
         volumenLabel = new JLabel("Volumen (cm³):");
         volumenLabel.setBounds(20, 105, 100, 20);
