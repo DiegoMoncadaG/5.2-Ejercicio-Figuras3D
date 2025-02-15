@@ -51,7 +51,7 @@ public class VentanaCilindro extends JFrame implements ActionListener {
         campoAltura.setHorizontalAlignment(JTextField.CENTER);
 
         calcular = new JButton("Calcular");
-        calcular.setBounds(84, 80, 100, 23); // Centrado perfectamente sobre "Resultado"
+        calcular.setBounds(84, 80, 100, 23);
         calcular.setFont(fuente);
         calcular.setBackground(new Color(189, 207, 205));
         calcular.setForeground(Color.BLACK);
@@ -60,7 +60,7 @@ public class VentanaCilindro extends JFrame implements ActionListener {
         resultadoTitulo = new JLabel("Resultado:");
         resultadoTitulo.setBounds(105, 110, 100, 20);
         resultadoTitulo.setFont(fuente);
-        resultadoTitulo.setForeground(new Color(90, 145, 130)); // Verde oscuro
+        resultadoTitulo.setForeground(new Color(90, 145, 130));
 
         volumenLabel = new JLabel("Volumen (cm³):");
         volumenLabel.setBounds(20, 135, 100, 20);
