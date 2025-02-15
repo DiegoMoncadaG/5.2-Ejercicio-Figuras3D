@@ -15,7 +15,7 @@ public class VentanaPirámide extends JFrame implements ActionListener {
         fuente = new Font("Berlin Sans FB", Font.PLAIN, 13);
         inicio();
         setTitle("Pirámide");
-        setSize(290, 260); // Ajuste del tamaño de la ventana
+        setSize(290, 260);
         setLocationRelativeTo(null);
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -63,7 +63,7 @@ public class VentanaPirámide extends JFrame implements ActionListener {
         campoApotema.setHorizontalAlignment(JTextField.CENTER);
 
         calcular = new JButton("Calcular");
-        calcular.setBounds(84, 110, 100, 23); // Centrado sobre "Resultado"
+        calcular.setBounds(84, 110, 100, 23);
         calcular.setFont(fuente);
         calcular.setBackground(new Color(189, 207, 205));
         calcular.setForeground(Color.BLACK);
@@ -72,7 +72,7 @@ public class VentanaPirámide extends JFrame implements ActionListener {
         resultadoTitulo = new JLabel("Resultado:");
         resultadoTitulo.setBounds(105, 140, 100, 20);
         resultadoTitulo.setFont(fuente);
-        resultadoTitulo.setForeground(new Color(90, 145, 130)); // Verde oscuro
+        resultadoTitulo.setForeground(new Color(90, 145, 130));
 
         volumenLabel = new JLabel("Volumen (cm³):");
         volumenLabel.setBounds(20, 165, 100, 20);
